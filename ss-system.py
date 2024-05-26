@@ -24,7 +24,7 @@ def upload_file():
         name = replace(request.form["player"])
         now = datetime.datetime.now()
         date = now.strftime("%Y-%m-%d %H:%M:%S")
-        discord = Discord(url="https://discord.com/api/webhooks/1244157195386486864/glQwWkyen1BQlfW6bYlOjsxvPE3wzFggAe8ChH0rgNYGLHaoCZ1ndGnyISH6ihf6WvBG") #discord webhook
+        discord = Discord(url="https://discord.com/api/webhooks/1244157195386486864/glQwWkyen1efefBQlfW6bYlOjsxvPE3wzFggAeefefChH0rgNYGLHaoCefefZ1ndGnyISH6ihf6WvBG") #discord webhook
         discord.post(
                       embeds=[
                           {
